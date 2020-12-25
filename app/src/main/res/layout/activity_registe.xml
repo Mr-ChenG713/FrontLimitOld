@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EC9993"
-    tools:context=".RegisteActivity">
+    android:background="@color/purple_100"
+    tools:context=".activity.RegisteActivity">
 
     <ImageView
         android:id="@+id/imageView"
@@ -69,6 +69,7 @@
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <RadioGroup
+                    android:id="@+id/radiogroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
@@ -82,6 +83,8 @@
                         android:id="@+id/reg_genem"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:onClick="selectRadionButton"
                         android:text="M"
                         android:textStyle="bold" />
 
@@ -89,6 +92,8 @@
                         android:id="@+id/reg_genef"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:onClick="selectRadionButton"
                         android:text="F"
                         android:textStyle="bold" />
                 </RadioGroup>
@@ -176,7 +181,7 @@
                         android:id="@+id/reg_tele"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="text" />
+                        android:inputType="number" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout

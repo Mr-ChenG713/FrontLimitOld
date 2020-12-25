@@ -9,23 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FrontLimit">
-
-        <activity android:name=".RegisteActivity"
-            android:theme="@style/SplashScreen"></activity>
-
+        <activity android:name=".activity.AgentePerfilActivity"></activity>
         <activity
-            android:name=".LoginActivity"
-            android:theme="@style/SplashScreen"></activity>
-
+            android:name=".activity.RegisteActivity"
+            android:theme="@style/SplashScreen" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/SplashScreen" />
         <activity
             android:name=".SplashScreenActivity"
             android:theme="@style/SplashScreen">
             <intent-filter>
-
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
