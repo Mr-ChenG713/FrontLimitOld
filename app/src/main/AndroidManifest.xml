@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FrontLimit">
-        <activity android:name=".activity.AgentePerfilActivity"></activity>
+        <activity android:name=".activity.PrincipalActivity"></activity>
+        <activity android:name=".activity.AgentePerfilActivity" />
         <activity
             android:name=".activity.RegisteActivity"
             android:theme="@style/SplashScreen" />
