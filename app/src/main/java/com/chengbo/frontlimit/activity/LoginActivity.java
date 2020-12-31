@@ -45,12 +45,6 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    /*public void abrirPagPerfil(View view){
-
-        Intent intent = new Intent(getApplicationContext(), AgentePerfilActivity.class);
-        startActivity(intent);
-    }*/
-
     public void abrirPrincipal(View view){
 
         Intent intent = new Intent(getApplicationContext(), PrincipalActivity.class);

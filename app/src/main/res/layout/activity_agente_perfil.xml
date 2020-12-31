@@ -8,10 +8,18 @@
     android:background="#F4867E"
     tools:context=".activity.AgentePerfilActivity">
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="120dp"
         android:padding="20dp">
+
 
         <ImageView
             android:id="@+id/perf_img"

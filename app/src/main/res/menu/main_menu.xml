@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Menu">
+            <menu>
+                <item
+                    android:id="@+id/nav_perfil"
+                    android:icon="@drawable/ic_infoperf"
+                    android:title="Perfil" />
+                <item
+                    android:id="@+id/nav_outros"
+                    android:icon="@drawable/ic_outros"
+                    android:title="Outras Informações" />
+                <item
+                    android:id="@+id/nav_sobre"
+                    android:icon="@drawable/ic_sobre"
+                    android:title="Sobre" />
+            </menu>
+        </item>
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_logout"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
