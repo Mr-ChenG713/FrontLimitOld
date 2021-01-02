@@ -21,5 +21,6 @@ public class OutroActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Outras Informações");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

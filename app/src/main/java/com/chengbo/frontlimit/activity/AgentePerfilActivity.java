@@ -20,5 +20,6 @@ public class AgentePerfilActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Perfil");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

@@ -9,12 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FrontLimit">
-        <activity android:name=".activity.OutroActivity"></activity>
-        <activity android:name=".activity.SobreActivity" />
+
+        <activity android:name=".activity.SobreActivity"
+            android:parentActivityName=".activity.PrincipalActivity"/>
+
+        <activity android:name=".activity.OutroActivity"
+            android:parentActivityName=".activity.PrincipalActivity"/>
+
         <activity android:name=".activity.PrincipalActivity" />
-        <activity android:name=".activity.AgentePerfilActivity" />
+
+        <activity android:name=".activity.AgentePerfilActivity"
+            android:parentActivityName=".activity.PrincipalActivity"/>
+
         <activity android:name=".activity.RegisteActivity" />
+
         <activity android:name=".activity.LoginActivity" />
+
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

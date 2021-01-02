@@ -11,7 +11,6 @@ public class SobreActivity extends AppCompatActivity {
 
     public Toolbar toolbar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,5 +20,6 @@ public class SobreActivity extends AppCompatActivity {
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setTitle("Sobre");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
