@@ -1,23 +1,16 @@
 package com.chengbo.frontlimit.activity;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.BoringLayout;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
 import com.chengbo.frontlimit.R;
-import com.chengbo.frontlimit.model.AgenteModel;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -36,6 +29,8 @@ public class LoginActivity extends AppCompatActivity {
         logEmail = (EditText) findViewById(R.id.login_email);
         logPass = (EditText) findViewById(R.id.login_password);
         logBtn = (Button) findViewById(R.id.btn_login);
+
+
         
     }
 

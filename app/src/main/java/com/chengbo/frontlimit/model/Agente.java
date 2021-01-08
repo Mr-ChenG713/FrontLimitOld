@@ -2,9 +2,9 @@ package com.chengbo.frontlimit.model;
 
 import java.util.Date;
 
-public class AgenteModel {
+public class Agente {
 
-    private String agenteId;
+    private String agenteid;
     private String nome;
     private String genero;
     private String datanascimento;
@@ -14,11 +14,11 @@ public class AgenteModel {
     private String telemovel;
     private String morada;
 
-    public AgenteModel() {
+    public Agente() {
     }
 
-    public AgenteModel(String agenteId, String nome, String genero, String datanascimento, String documentoIdentificacao, String email, String password, String telemovel, String morada) {
-        this.agenteId = agenteId;
+    public Agente(String agenteid, String nome, String genero, String datanascimento, String documentoIdentificacao, String email, String password, String telemovel, String morada) {
+        this.agenteid = agenteid;
         this.nome = nome;
         this.genero = genero;
         this.datanascimento = datanascimento;
@@ -29,12 +29,12 @@ public class AgenteModel {
         this.morada = morada;
     }
 
-    public String getAgenteId() {
-        return agenteId;
+    public String getAgenteid() {
+        return agenteid;
     }
 
-    public void setAgenteId(String agenteId) {
-        this.agenteId = agenteId;
+    public void setAgenteid(String agenteid) {
+        this.agenteid = agenteid;
     }
 
     public String getNome() {

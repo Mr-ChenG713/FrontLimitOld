@@ -12,7 +12,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.chengbo.frontlimit.R;
-import com.chengbo.frontlimit.model.AgenteModel;
+import com.chengbo.frontlimit.model.Agente;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -202,7 +202,7 @@ public class RegisteActivity extends AppCompatActivity {
 
         fmbase = FirebaseDatabase.getInstance();
 
-        reference = fmbase.getReference("agente");
+        reference = fmbase.getReference();
 
         if (!validarNome() | !validarData() | !validarDoc() | !validarEmail() | !validarPass() | !validarTele() | !validarMorada()){
 
@@ -220,9 +220,9 @@ public class RegisteActivity extends AppCompatActivity {
         String telemovel = regTele.getText().toString();
         String morada = regMora.getText().toString();
 
-        AgenteModel agenteModel = new AgenteModel(agenteId, nome, genero, datanascimento, docm, email, password, telemovel, morada);
+        Agente agente = new Agente(agenteId, nome, genero, datanascimento, docm, email, password, telemovel, morada);
 
-        reference.push().setValue(agenteModel);
+        reference.child("agente").push().setValue(agente);
 
         Toast.makeText(getBaseContext(),"Registar com Sucesso !!!", Toast.LENGTH_SHORT).show();
     }

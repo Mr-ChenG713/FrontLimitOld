@@ -10,21 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FrontLimit">
 
-        <activity android:name=".activity.SobreActivity"
-            android:parentActivityName=".activity.PrincipalActivity"/>
+        <activity android:name=".activity.CidadeActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.PaisActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.MercadoriaActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.CategoriaActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.FronteiraActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.OpcActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
+        <activity android:name=".activity.MarcaActivity"
+            android:parentActivityName=".activity.OutroActivity"/>
 
-        <activity android:name=".activity.OutroActivity"
-            android:parentActivityName=".activity.PrincipalActivity"/>
-
+        <activity
+            android:name=".activity.SobreActivity"
+            android:parentActivityName=".activity.PrincipalActivity" />
+        <activity
+            android:name=".activity.OutroActivity"
+            android:parentActivityName=".activity.PrincipalActivity" />
         <activity android:name=".activity.PrincipalActivity" />
-
-        <activity android:name=".activity.AgentePerfilActivity"
-            android:parentActivityName=".activity.PrincipalActivity"/>
-
+        <activity
+            android:name=".activity.AgentePerfilActivity"
+            android:parentActivityName=".activity.PrincipalActivity" />
         <activity android:name=".activity.RegisteActivity" />
-
         <activity android:name=".activity.LoginActivity" />
-
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

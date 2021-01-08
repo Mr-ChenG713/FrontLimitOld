@@ -59,6 +59,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirMarca"
                         app:srcCompat="@drawable/marca" />
                 </RelativeLayout>
 
@@ -93,6 +94,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirOPC"
                         app:srcCompat="@drawable/opc" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -125,6 +127,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirFronteira"
                         app:srcCompat="@drawable/fronteira" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -171,6 +174,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirCategoria"
                         app:srcCompat="@drawable/categoria" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -203,6 +207,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirMercadoria"
                         app:srcCompat="@drawable/produto" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -247,6 +252,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirPais"
                         app:srcCompat="@drawable/pais" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -279,6 +285,7 @@
                         android:layout_height="50dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="5dp"
+                        android:onClick="abrirCidade"
                         app:srcCompat="@drawable/cidade" />
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
