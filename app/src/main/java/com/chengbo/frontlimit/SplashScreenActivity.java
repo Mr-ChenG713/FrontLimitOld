@@ -24,7 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             }
         },2000);
     }
-
+ 
     private void abrirPagLogin() {
         Intent pagLogin = new Intent (SplashScreenActivity.this, LoginActivity.class);
         startActivity(pagLogin);

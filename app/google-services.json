@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:141661126283:android:a699589858d56492bd9e8e",
+        "mobilesdk_app_id": "1:141661126283:android:9f409034b4ef3d66bd9e8e",
         "android_client_info": {
           "package_name": "com.chengbo.frontlimit"
         }
       },
       "oauth_client": [
         {
-          "client_id": "141661126283-psb2hmc7a1nij5er13ictqsvoif3dcog.apps.googleusercontent.com",
+          "client_id": "141661126283-c412p23c3phamt42ndvept77l8ht2hof.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.chengbo.frontlimit",
-            "certificate_hash": "7f25897bc916ff1ed9aad04b5a839b223d177b32"
+            "certificate_hash": "afd118468437957d4e71259a1cffbc863f26272a"
           }
         },
         {

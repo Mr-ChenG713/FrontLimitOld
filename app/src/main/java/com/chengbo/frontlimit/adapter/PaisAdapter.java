@@ -68,7 +68,7 @@ public class PaisAdapter extends RecyclerView.Adapter<PaisAdapter.ViewHolder> {
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        private TextView nomeop_item;
+        private TextView nomeop_item, titulo;
         private ImageButton btnDelete, btnEdit;
 
 
@@ -76,9 +76,13 @@ public class PaisAdapter extends RecyclerView.Adapter<PaisAdapter.ViewHolder> {
 
             super(itemView);
 
+            titulo = itemView.findViewById(R.id.textView19);
             nomeop_item = itemView.findViewById(R.id.item_name);
             btnDelete = itemView.findViewById(R.id.item_delete);
             btnEdit =  itemView.findViewById(R.id.item_edit);
+
+            titulo.setText("Nome de País:");
+
         }
     }
 

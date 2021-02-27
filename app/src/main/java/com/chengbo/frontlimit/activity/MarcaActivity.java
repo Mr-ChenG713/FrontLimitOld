@@ -18,6 +18,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.chengbo.frontlimit.R;
@@ -143,6 +144,7 @@ public class MarcaActivity extends AppCompatActivity{
 
                     Marca value = snapshot.getValue(Marca.class);
                     listmarca.add(value);
+
                 }
 
                 adapter = new MarcaAdapter(MarcaActivity.this, listmarca);
